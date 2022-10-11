@@ -8,7 +8,7 @@ project 1 - A Random Quote Generator
   // Reach out in your Slack community - https://treehouse-fsjs-102.slack.com/app_redirect?channel=chit-chat
 
 /*** 
- * As an unapologetic Final Fantasy 14 quotes, that is where all of mine come from - me picking some of my favorite sayings from that game and/or those I found the most amusing.
+ * As an unapologetic Final Fantasy 14 fanboy, that is where all of mine come from - me picking some of my favorite sayings from that game and/or those I found the most amusing.
 ***/
 const quotes = [
   {
