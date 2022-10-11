@@ -3,10 +3,6 @@ Treehouse FSJS Techdegree:
 project 1 - A Random Quote Generator
 ******************************************/
 
-// For assistance: 
-  // Check the "Project Resources" section of the project instructions
-  // Reach out in your Slack community - https://treehouse-fsjs-102.slack.com/app_redirect?channel=chit-chat
-
 /*** 
  * As an unapologetic Final Fantasy 14 fanboy, that is where all of mine come from - me picking some of my favorite sayings from that game and/or those I found the most amusing.
 ***/
@@ -66,8 +62,6 @@ const getRandomQuote = () => {
   return quotes[quoteNum];
 }
 
-getRandomQuote();
-
 let colorList = ['#dd79ed', '#68dac2', '#8dfcd6', '#fb7b85', '#15dd86', '#3ac162'];
 
 const changeBackground = () => {
@@ -89,15 +83,15 @@ const printQuote = () => {
   <p class="source">${randomQuote.source}
   `;
   if(randomQuote.citation) {
-    quoteHTML = quoteHTML + `<span class="citation">${randomQuote.citation}</span>`
+    quoteHTML += `<span class="year">${randomQuote.citation}</span>`;
   }
   if (randomQuote.year) {
-    quoteHTML = quoteHTML + `<span class="year">${randomQuote.year}</span>`
+    quoteHTML += `<span class="year">${randomQuote.year}</span>`;
   }
   if (randomQuote.burn) {
-    quoteHTML = quoteHTML + `<span class="burn">The Burn: ${randomQuote.burn}</span>`
+    quoteHTML+= `<span class="burn">The Burn: ${randomQuote.burn}</span>`
   }
-  quoteHTML = quoteHTML + `</p>`;
+  quoteHTML += `</p>`;
 
   document.getElementById('quote-box').innerHTML = quoteHTML;
 }
