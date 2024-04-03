@@ -1,0 +1,2 @@
+This was project 1 of the Team TreeHouse Full Stack Techdegree program which was a bit basic, really. It was a quote generator that randomly produces a quote from an array. I've done multiple projects like this before so it wasn't particularly special but it was the first time doing this with video game quotes.
+If you would like to see a live preview of this project, [click here](https://darkphoenixninja92.github.io/Techdegree-01-Quote-Generator).
